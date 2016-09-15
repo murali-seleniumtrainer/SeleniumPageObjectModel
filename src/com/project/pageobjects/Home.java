@@ -65,7 +65,6 @@ public class Home extends KeyWords {
 	public static void checkout() {
 		KeyWords.clickOn(checkout);
 		// Assert.assertEquals(KeyWords.element(reviewHeadline).getText(),
-		// "REVIEW YOUR CART");
 		KeyWords.verifyText(reviewHeadline, "REVIEW YOUR CART");
 	}
 
